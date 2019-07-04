@@ -19,6 +19,7 @@ class MenuViewController: UITableViewController {
         FeedCollectionViewController.self,
         FeedTableViewController.self,
         StackViewController.self,
+        AutoRotateStackViewController.self,
         NestedCollectionViewController.self,
         ForegroundMiniProfileViewController.self,
         BackgroundMiniProfileViewController.self,

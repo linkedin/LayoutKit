@@ -301,6 +301,9 @@
 		CDD4F71320EC728200DB358C /* IndexSetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B193BB71D887BCF00FCA22D /* IndexSetExtension.swift */; };
 		CDD4F71420EC728300DB358C /* IndexSetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B193BB71D887BCF00FCA22D /* IndexSetExtension.swift */; };
 		CDD4F71520EC728300DB358C /* IndexSetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B193BB71D887BCF00FCA22D /* IndexSetExtension.swift */; };
+		D338ADAA2109ADDA007A2006 /* RotatingStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D338ADA92109ADDA007A2006 /* RotatingStackTests.swift */; };
+		D3DE670721071BD700E17692 /* AutoRotateStackLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE670621071BD700E17692 /* AutoRotateStackLayout.swift */; };
+		D3DE6709210738BE00E17692 /* AutoRotateStackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DE6708210738BE00E17692 /* AutoRotateStackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -534,6 +537,9 @@
 		A189721021B8BB3B00DDA616 /* EmbeddedLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedLayoutTests.swift; sourceTree = "<group>"; };
 		AD2C36421EA5AF9500550A03 /* ReloadableViewLayoutAdapterCollectionViewOverrideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadableViewLayoutAdapterCollectionViewOverrideTests.swift; sourceTree = "<group>"; };
 		ADE5FCBF1EA5B5C8006A3DC2 /* ReloadableViewLayoutAdapterTableViewOverrideTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReloadableViewLayoutAdapterTableViewOverrideTests.swift; sourceTree = "<group>"; };
+		D338ADA92109ADDA007A2006 /* RotatingStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatingStackTests.swift; sourceTree = "<group>"; };
+		D3DE670621071BD700E17692 /* AutoRotateStackLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRotateStackLayout.swift; sourceTree = "<group>"; };
+		D3DE6708210738BE00E17692 /* AutoRotateStackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoRotateStackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -640,6 +646,7 @@
 				0B2D09DB1D87365F007E487C /* StackViewController.swift */,
 				0B2D09DC1D87365F007E487C /* UrlImageLayout.swift */,
 				0B6B04361DC8402E00F23EEA /* DWURecyclingAlert.m */,
+				D3DE6708210738BE00E17692 /* AutoRotateStackViewController.swift */,
 			);
 			path = LayoutKitSampleApp;
 			sourceTree = "<group>";
@@ -755,6 +762,7 @@
 				44F968161E42639500392763 /* TextViewLayoutTests.swift */,
 				0BCB76671D8725310065E02A /* UIFontExtension.swift */,
 				0BCB76681D8725310065E02A /* ViewRecyclerTests.swift */,
+				D338ADA92109ADDA007A2006 /* RotatingStackTests.swift */,
 			);
 			path = LayoutKitTests;
 			sourceTree = "<group>";
@@ -800,6 +808,7 @@
 				0BCB75E41D8724800065E02A /* SizeLayout.swift */,
 				0BCB75E51D8724800065E02A /* StackLayout.swift */,
 				44F968141E425F5D00392763 /* TextViewLayout.swift */,
+				D3DE670621071BD700E17692 /* AutoRotateStackLayout.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -1323,6 +1332,7 @@
 				0B2D09EE1D87365F007E487C /* Stopwatch.swift in Sources */,
 				0B2D09E31D87365F007E487C /* BatchUpdatesBaseViewController.swift in Sources */,
 				0B2D09F81D87365F007E487C /* StackViewController.swift in Sources */,
+				D3DE6709210738BE00E17692 /* AutoRotateStackViewController.swift in Sources */,
 				0B6B04371DC8402E00F23EEA /* DWURecyclingAlert.m in Sources */,
 				0B2D09F51D87365F007E487C /* LabledImageLayout.swift in Sources */,
 				0B2D09F11D87365F007E487C /* FeedCollectionViewController.swift in Sources */,
@@ -1376,6 +1386,7 @@
 				0B765F2C1DC0514F000BF1FD /* CGFloatExtension.swift in Sources */,
 				0BCB76041D8724800065E02A /* SizeLayout.swift in Sources */,
 				0BCB76031D8724800065E02A /* LabelLayout.swift in Sources */,
+				D3DE670721071BD700E17692 /* AutoRotateStackLayout.swift in Sources */,
 				0BCB76101D8724800065E02A /* ReloadableViewLayoutAdapter+UITableView.swift in Sources */,
 				0BCB75FB1D8724800065E02A /* Flexibility.swift in Sources */,
 				0BCB76121D8724800065E02A /* ReloadableViewUpdateManager.swift in Sources */,
@@ -1416,6 +1427,7 @@
 				0B2D09361D872F75007E487C /* TestStack.swift in Sources */,
 				0B2D09351D872F75007E487C /* TableViewTests.swift in Sources */,
 				0B2D09311D872F75007E487C /* StackLayoutFlexibilityTests.swift in Sources */,
+				D338ADAA2109ADDA007A2006 /* RotatingStackTests.swift in Sources */,
 				0B2D09301D872F75007E487C /* StackLayoutDistributionTests.swift in Sources */,
 				0B2D09331D872F75007E487C /* StackLayoutTests.swift in Sources */,
 				0B2D09291D872F75007E487C /* LayoutArrangementTests.swift in Sources */,
